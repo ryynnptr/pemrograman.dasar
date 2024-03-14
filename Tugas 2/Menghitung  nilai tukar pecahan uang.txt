@@ -1,1 +1,28 @@
 Algoritma  membaca nilai uang (rupiah) dalam kelipatan 25
+
+deklarasi
+Integer : kelipatan_uang, sisa_uang, jumlahPecahan_1000, jumlahPecahan_500, jumlahPecahan_100, jumlahPecahan_50,  jumlahPecahan_25
+
+write("Masukkan Uang :");
+read(kelipatan_uang);
+
+ jumlahPecahan_1000 = kelipatan_uang div 1000;
+sisa_uang = kelipatan_uang mod 1000;
+
+jumlahPecahan_500 = kelipatan_uang div 500;
+sisa_uang = kelipatan_uang mod 500;
+
+jumlahPecahan_100 = kelipatan_uang div 100;
+sisa_uang = kelipatan_uang mod 100;
+
+jumlahPecahan_50 = kelipatan_uang div 50;
+sisa_uang = kelipatan_uang mod 50;
+
+jumlahPecahan_25 = kelipatan_uang div 25;
+sisa_uang = kelipatan_uang mod 25;
+
+write("jumlah pecahan Rp.1000", jumlahPecahan_1000);
+write("jumlah pecahan Rp.500", jumlahPecahan_500);
+write("jumlah pecahan Rp.100", jumlahPecahan_100);
+write("jumlah pecahan Rp.50", jumlahPecahan_50);
+write("jumlah pecahan Rp.25", jumlahPecahan_25);
