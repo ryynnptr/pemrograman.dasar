@@ -2,4 +2,7 @@ repeat
     berikan satu permen kepada anak pertama
     berikan satu permen kepada anak keduan
     berikan satu permen kepada anak ketiga
-untul kantung permen kosong
+untuk kantung permen kosong
+
+Jawaban:
+Algoritma tersebut akan gagal ketika saat akan memberikan permen pada seseorang anak (anak pertama, kedua, atau ketiga), ternyata kantung permen telah kosong. Hal ini menyebabkan pemroses tidak dapat mengeksekusi langkah tersebut dan dengan demikian dapat dinyatakan algoritma tersebut gagal
