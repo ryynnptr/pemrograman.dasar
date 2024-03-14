@@ -1,0 +1,5 @@
+repeat
+    berikan satu permen kepada anak pertama
+    berikan satu permen kepada anak keduan
+    berikan satu permen kepada anak ketiga
+untul kantung permen kosong
