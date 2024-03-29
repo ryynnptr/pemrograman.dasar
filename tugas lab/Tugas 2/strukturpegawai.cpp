@@ -22,6 +22,7 @@ void naikGaji(pegawai& pegawai1) {
     pegawai1.departemen = "IT";
     pegawai1.gaji = 5000000;
 
+// fungsi void naikGaji dipanggil untuk menaikkan gaji objek
     naikGaji(pegawai1);
 
 cout << "Nama: " << pegawai1.nama << endl;
