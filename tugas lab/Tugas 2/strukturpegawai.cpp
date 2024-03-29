@@ -11,8 +11,8 @@ struct pegawai {
 };
 
 // fungsi untuk menaikkan gaji
-void naikGaji(pegawai& pegawai1) {
-    pegawai1.gaji *= 1.10;
+void naikGaji(pegawai& pegawai) {
+    pegawai.gaji *= 1.10;
 }
 
 // objek dari pegawai1 sebagai output
