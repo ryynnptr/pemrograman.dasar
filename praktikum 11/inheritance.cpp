@@ -17,14 +17,14 @@ class hewan {
 
 class harimau:public hewan {
     public:
-    void predator() {
+    void getharimau() {
         cout << "Harimau adalah hewan yang berbulu." << endl;
     }
 };
 
 class singa:public hewan {
     public:
-    void predator() {
+    void getsinga() {
         cout << "singa adalah raja hutan." << endl;
     }
 };
@@ -38,7 +38,7 @@ class macanKumbang:public hewan {
 
 int main() {
     harimau hrm;
-    // hrm.getharimau();
+    hrm.getharimau();
     hrm.predator();
     hrm.taring();
     hrm.cakar();
@@ -47,7 +47,7 @@ int main() {
     
 
     singa sing;
-    // sing.getsinga();
+    sing.getsinga();
     sing.predator();
     sing.taring();
     sing.cakar();
@@ -55,7 +55,7 @@ int main() {
     cout << endl;
 
     macanKumbang mcn;
-    // mcn.getmacanKumbang();
+    mcn.getmacanKumbang();
     mcn.predator();
     mcn.taring();
     mcn.cakar();
